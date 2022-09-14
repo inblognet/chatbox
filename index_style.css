@@ -10,18 +10,46 @@ body{
     font-family: monospace;
 }
 
+/*========================[ Navigation Bar ]===============================================*/
 
-.context {
+nav{
+    background-color: blueviolet;
+    height: 80px;
     width: 100%;
-    position: absolute;
-    top:50vh;
-    
+    margin: 0px;
 }
 
-.context h1{
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background-color:rgb(65, 6, 120);
+    transition: 0.5s;
+}
+
+.logo{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height: 80px;
 }
 
 
@@ -147,47 +175,6 @@ body{
 
 }
 
-/*========================[ Navigation Bar ]===============================================*/
-
-nav{
-    background-color: blueviolet;
-    height: 80px;
-    width: 100%;
-    margin: 0px;
-}
-
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin-right: 20px;
-}
-
-nav ul li a{
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
-}
-
-nav ul li a:hover{
-    background-color:rgb(65, 6, 120);
-    transition: 0.5s;
-}
-
-.logo{
-    font-size: 35px;
-    color: white;
-    font-weight: bold;
-    padding: 0 20px;
-    line-height: 80px;
-}
 
 /*==================================================================================*/
 
@@ -195,8 +182,8 @@ nav ul li a:hover{
     width: 70%;
     height: 550px;
     background-color: rgba(255, 255, 255, 0.785);
-    margin-top: 2%;
     margin-left: 14%;
+    margin-top:2%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px  rgba(23, 0, 44, 0.397);
 }
